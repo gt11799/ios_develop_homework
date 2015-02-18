@@ -61,6 +61,8 @@ static const int COST_TO_CHOOSE = 1;
                     int matchScore = [card match:@[otherCard]];
                     if (matchScore) {
                         self.score += matchScore * MATCH_BONUS;
+                        otherCard.matched = YES;
+                        card.matched = YES;
                     } else {
                         self.score -= MISMATCH_PENALTY;
                         otherCard.Chosen = NO;
