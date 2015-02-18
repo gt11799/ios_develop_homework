@@ -19,6 +19,7 @@
 		32FB14891A923731004A5F02 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB14881A923731004A5F02 /* PlayingCard.m */; };
 		32FB148C1A923E45004A5F02 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB148B1A923E45004A5F02 /* Deck.m */; };
 		32FB14921A92C65F004A5F02 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB14911A92C65F004A5F02 /* PlayingCardDeck.m */; };
+		32FB14951A942102004A5F02 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB14941A942102004A5F02 /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		32FB148B1A923E45004A5F02 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = cardGame/model/Deck.m; sourceTree = "<group>"; };
 		32FB14901A92C65F004A5F02 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = cardGame/model/PlayingCardDeck.h; sourceTree = "<group>"; };
 		32FB14911A92C65F004A5F02 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = cardGame/model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		32FB14931A942102004A5F02 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = cardGame/model/CardMatchingGame.h; sourceTree = "<group>"; };
+		32FB14941A942102004A5F02 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = cardGame/model/CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 		32FB14861A9233BE004A5F02 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				32FB14931A942102004A5F02 /* CardMatchingGame.h */,
+				32FB14941A942102004A5F02 /* CardMatchingGame.m */,
 				32FB14871A923731004A5F02 /* PlayingCard.h */,
 				32FB14881A923731004A5F02 /* PlayingCard.m */,
 				32FB148A1A923E45004A5F02 /* Deck.h */,
@@ -254,6 +259,7 @@
 				32FB14891A923731004A5F02 /* PlayingCard.m in Sources */,
 				32FB14921A92C65F004A5F02 /* PlayingCardDeck.m in Sources */,
 				32FB148C1A923E45004A5F02 /* Deck.m in Sources */,
+				32FB14951A942102004A5F02 /* CardMatchingGame.m in Sources */,
 				32FB14851A9232D0004A5F02 /* card.m in Sources */,
 				32FB145D1A9183FA004A5F02 /* AppDelegate.m in Sources */,
 				32FB145A1A9183FA004A5F02 /* main.m in Sources */,
