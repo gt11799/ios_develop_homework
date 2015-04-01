@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32D6002E1ACBBFB20028CB0A /* PlayingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D6002D1ACBBFB20028CB0A /* PlayingCardViewController.m */; };
 		32FB145A1A9183FA004A5F02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB14591A9183FA004A5F02 /* main.m */; };
 		32FB145D1A9183FA004A5F02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB145C1A9183FA004A5F02 /* AppDelegate.m */; };
 		32FB14601A9183FA004A5F02 /* cardGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32FB145E1A9183FA004A5F02 /* cardGame.xcdatamodeld */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32D6002C1ACBBFB20028CB0A /* PlayingCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardViewController.h; path = ../PlayingCardViewController.h; sourceTree = "<group>"; };
+		32D6002D1ACBBFB20028CB0A /* PlayingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardViewController.m; path = ../PlayingCardViewController.m; sourceTree = "<group>"; };
 		32FB14541A9183FA004A5F02 /* cardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FB14581A9183FA004A5F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32FB14591A9183FA004A5F02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 		32FB14561A9183FA004A5F02 /* cardGame */ = {
 			isa = PBXGroup;
 			children = (
+				32D6002C1ACBBFB20028CB0A /* PlayingCardViewController.h */,
+				32D6002D1ACBBFB20028CB0A /* PlayingCardViewController.m */,
 				32FB14611A9183FA004A5F02 /* ViewController.h */,
 				32FB14621A9183FA004A5F02 /* ViewController.m */,
 				32FB14641A9183FA004A5F02 /* Main.storyboard */,
@@ -263,6 +268,7 @@
 				32FB14851A9232D0004A5F02 /* card.m in Sources */,
 				32FB145D1A9183FA004A5F02 /* AppDelegate.m in Sources */,
 				32FB145A1A9183FA004A5F02 /* main.m in Sources */,
+				32D6002E1ACBBFB20028CB0A /* PlayingCardViewController.m in Sources */,
 				32FB14631A9183FA004A5F02 /* ViewController.m in Sources */,
 				32FB14601A9183FA004A5F02 /* cardGame.xcdatamodeld in Sources */,
 			);
@@ -455,6 +461,7 @@
 				32FB147C1A9183FA004A5F02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32FB147D1A9183FA004A5F02 /* Build configuration list for PBXNativeTarget "cardGameTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +470,7 @@
 				32FB147F1A9183FA004A5F02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
